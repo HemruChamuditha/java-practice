@@ -1,14 +1,11 @@
-import staticThings.TestClass;
+import encapsulations.Student;
 
 public class Main {
 
     public static void main(String[] args) {
-        getMethod();
-    }
 
-    public static void getMethod(){
-
-        TestClass testClass = new TestClass();
-        System.out.println(testClass.number);
+        Student student = new Student();
+        student.setAge(23);
+        System.out.println(student.getAge());
     }
 }
