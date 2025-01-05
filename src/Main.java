@@ -1,11 +1,18 @@
+import Inheritance.Cat;
 import encapsulations.Student;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Student student = new Student();
-        student.setAge(23);
-        System.out.println(student.getAge());
+        Cat cat = new Cat();
+        cat.eat();
+        cat.run();
+        cat.setAge(45);
+        cat.setCategory("big cat");
+
+        System.out.println(cat.getAge());
+
+
     }
 }
